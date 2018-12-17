@@ -1,5 +1,4 @@
-var revapi3,
-	tpj=jQuery;
+var revapi3,tpj=jQuery;
 			
 tpj(document).ready(function() {
 	if(tpj("#rev_slider_3_1").revolution == undefined){
@@ -7,10 +6,10 @@ tpj(document).ready(function() {
 	}else{
 		revapi3 = tpj("#rev_slider_3_1").show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"//localhost/shreekar/wp-content/plugins/revslider/public/assets/js/",
+			jsFileLocation:"/assets/js/",
 			sliderLayout:"fullwidth",
 			dottedOverlay:"none",
-			delay:9000,
+			delay:6000,
 			navigation: {
 				keyboardNavigation:"off",
 				keyboard_direction: "horizontal",
@@ -90,7 +89,7 @@ tpj(document).ready(function() {
 	}else{
 		revapi5 = tpj("#rev_slider_5_1").show().revolution({
 			sliderType:"standard",
-			jsFileLocation:"//localhost/shreekar/wp-content/plugins/revslider/public/assets/js/",
+			jsFileLocation:"/assets/js/",
 			sliderLayout:"fullwidth",
 			dottedOverlay:"none",
 			delay:9000,

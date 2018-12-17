@@ -5,3 +5,15 @@
 //= require theme
 //= require testimonial
 //= require about-custom.js
+//= require js/jquery.themepunch.tools.min.js
+//= require js/jquery.themepunch.revolution.min.js
+//= require js/extensions/revolution.extension.actions.min.js
+//= require js/extensions/revolution.extension.carousel.min.js
+//= require js/extensions/revolution.extension.kenburn.min.js
+//= require js/extensions/revolution.extension.layeranimation.min.js
+//= require js/extensions/revolution.extension.migration.min.js
+//= require js/extensions/revolution.extension.navigation.min.js
+//= require js/extensions/revolution.extension.parallax.min.js
+//= require js/extensions/revolution.extension.slideanims.min.js
+//= require js/extensions/revolution.extension.video.min.js
+//= require js/rev-main.js
