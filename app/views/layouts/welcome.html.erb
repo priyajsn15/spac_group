@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SpacGroup</title>
+    <%= csrf_meta_tags %>
+
+	<link rel="icon" href="vendor/assets/img/index/favicon.png" sizes="16x16">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+  </head>
+
+  <body>
+  	<div class="about-us"><!--page wrap-->
+
+		<a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
+
+		<%= render :partial => "layouts/app/header"%>
+
+		<%= render :partial => "layouts/app/banner_head"%>
+
+		<%= render :partial => "layouts/app/banner_slider"%>
+
+		<%= yield %>
+
+		<!--count-sec-->
+		<div class="container-fluid counter-sec" id="counter">
+			<div class="container">
+		        <div class="item col-md-3 col-sm-6 text-center">
+		            <p class="number counter-value" data-count="5589">0</p>
+		            <span>Visiters</span>
+		        </div>
+		        <div class="item col-md-3 col-sm-6 text-center">
+		            <p class="number counter-value" data-count="21">0</p>
+		            <span>Specialist</span>
+		        </div>
+		        <div class="item col-md-3 col-sm-6 text-center">
+		            <p class="number counter-value" data-count="150">0</p>
+		            <span>Unique clients</span>
+		        </div>
+		        <div class="item col-md-3 col-sm-6 text-center">
+		            <p class="number counter-value" data-count="4">0</p>
+		            <span>Years of experience</span>
+		        </div>
+		    </div>
+		</div>
+
+		<!--latest-feature-->
+		<div class="container padd-80 latest-feature-sec text-center">
+			<div class="col-md-12 about-heading">
+		    	<h3>Our Latest <span>Features</span></h3>
+		        <h5>Quickly Repurpose Innovation Business Before Global The Communities.</h5>
+		    </div>
+		    <div class="clearfix"></div>
+		    
+		    <div class="col-md-6 mt-50">
+		    	<img src="img/about-us/img-1.jpg" alt="" class="img-responsive" />
+		    </div>
+		    <div class="col-md-6 feature-detail mt-50 text-left">
+		    	<div class="col-md-12">
+		            <i class="flaticon-3-responsive"></i>
+		            <h4>FULLY RESPONSIVE</h4>
+		            <p>Vestibulum auctor libero vel ex volutpat porta. In tempor vel null nsequat Vestibulum auctor libero vel ex volutpat porta. </p>
+		        </div>
+		        <div class="clearfix"></div>
+		        <div class="col-md-12 mt-30">
+		            <i class="flaticon-3-calculator"></i>
+		            <h4>Multiple different Homepages</h4>
+		            <p>Vestibulum auctor libero vel ex volutpat porta. In tempor vel null nsequat Vestibulum auctor libero vel ex volutpat porta. </p>
+		        </div>
+		        <div class="clearfix"></div>
+		        <div class="col-md-12 mt-30">
+		            <i class="flaticon-3-medal"></i>
+		            <h4>High quality design</h4>
+		            <p>Vestibulum auctor libero vel ex volutpat porta. In tempor vel null nsequat Vestibulum auctor libero vel ex volutpat porta. </p>
+		        </div>
+		        <div class="clearfix"></div>
+		    </div>
+		    <div class="clearfix"></div>
+		    <a href="#" class="work-btn">View all</a>
+		</div>
+	 
+		<!--intuitive-sec-->
+		<div class="container-fluid intuitive-sec">
+			<div class="container">
+		    	<div class="col-md-12 text-center intuitive-body">
+		        	<h4>Get the most intuitive website now!</h4>
+		            <a href="#" class="work-btn">Purchase now!</a>
+		        </div>
+		    </div>
+		</div>
+
+		<%= render :partial => "layouts/app/footer"%>
+	</div><!--page wrap-->
+  </body>
+</html>
